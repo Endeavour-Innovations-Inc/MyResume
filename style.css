@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.print-area{
+    width: 80%;
+    margin: 20px auto;
+}
+.print-area .header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(31,34,43);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* width below controls the position of the name (left/right) */
+.header-text{
+    color: white;
+    width: 99%;
+    margin-left: auto;
+}
+.header-text h1{
+    font-size: 80px;
+    font-weight: normal;
+}
+.header-text p{
+    font-size: 20px;
+    color: lightgray;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-area{
+    width: 30%;
+    background-color: rgb(236,236,236);
+    text-align: center;
+}
+.left-area .contact{
+    margin-top: 1px;
+    padding: 0 20px;
+}
+.contact h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 10px 0
+}
+.contact h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact p{
+    font-size: 17px;
+}
+.skills{
+    margin-top: 10px;
+}
+
+.skills h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.skills h5{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.bars{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 10px;
+    padding: 0 30px;
+}
+.bars .bar p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.follow h1{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.follow h4{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.follow p{
+    font-size: 15px;
+    color: gray;
+}
+.right-area{
+    width: 70%;
+    padding: 10px;
+}
+.right-area h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+.right-area h1 span{
+    margin-right: 10px;
+    font-size: 50px;
+    color: lightgray;
+}
+.right-area p{
+    padding-left: 50px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+}
+.work-group{
+    margin: 10px 0;
+    border-radius: 100px;
+    border: 2px solid #000000;
+}
+.work .work-group{
+    position: relative;
+}
+.work-group h3{
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+.work-group h4{
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: normal;
+    color: gray;
+}
+.work-group span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.education{
+    margin-top: 10px;
+}
+.edu-group{
+    position: relative;
+    margin: 15px 0;
+    border-radius: 100px;
+    border: 2px solid #000000;
+}
+.edu-group h4{
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    right: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.edu-group span{
+    padding-right: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.edu-group p{
+    padding-left: 80px;
+}
+.info-group{
+    margin: 10px 0;
+}
+.info-group h3{
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+.info-group h4{
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: normal;
+    color: gray;
+}
+.about p{
+    padding-left: 20px;
+}
